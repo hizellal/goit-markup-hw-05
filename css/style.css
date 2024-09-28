@@ -547,6 +547,9 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em
 }
+.form-container {
+    margin-left: 80px;
+}
 
 .form-container-paragraph {
     margin-bottom: 16px;

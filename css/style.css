@@ -612,19 +612,19 @@ img {
     position: fixed;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 100%;
     z-index: 999999;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
     position: absolute;
-    width: 100%;
+    width: 408px;
     min-height: 584px;
     top: 50%;
     left: 50%;
@@ -655,7 +655,13 @@ img {
     cursor: pointer;
 }
 
-.modal-close-btn:hover,
+.modal-close-btn:hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+}
+
+
 .modal-close-btn:focus {
     background-color: #404bbf;
     border: none;
@@ -764,23 +770,15 @@ img {
     fill: #4d5ae5;
 }
 
+.reviw-form-policy-link {
+    text-decoration: underline;
+}
+
 .review-form-checkbox-label {
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8e8f99;
-}
-
-.reviw-form-policy-link {
-    text-decoration: underline;
-}
-
-.review-form-checkbox:checked 
-+ .review-form-checkbox-label 
-> .review-form-custom-checkbox {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
 }
 
 .review-form-custom-checkbox {
@@ -795,6 +793,13 @@ img {
     cursor: pointer;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-form-checkbox:checked
+> .review-form-custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .review-form-sumbit-btn {

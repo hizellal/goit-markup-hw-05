@@ -624,7 +624,7 @@ img {
 
 .modal {
     position: absolute;
-    width: 408px;
+    width: 100%;
     min-height: 584px;
     top: 50%;
     left: 50%;

@@ -796,6 +796,7 @@ img {
 }
 
 .review-form-checkbox:checked
++ .review-form-checkbox-label
 > .review-form-custom-checkbox {
     background-color: #404bbf;
     border: none;

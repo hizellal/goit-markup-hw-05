@@ -657,9 +657,9 @@ img {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    background-color: #404bbf; 
+    background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-close-icon {
@@ -780,7 +780,7 @@ img {
 > .review-form-custom-checkbox {
     background-color: #404bbf;
     border: none;
-    fill: #f4f4fd;
+    fill: #F4F4FD;
 }
 
 .review-form-custom-checkbox {

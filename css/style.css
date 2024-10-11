@@ -637,10 +637,10 @@ img {
 }
 
 .modal-close-btn {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     right: 24px;
     top: 24px;
     width: 24px;

@@ -106,14 +106,14 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link::after {
+.nav-link.current::after {
     content: '';
     width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
-    background-color: transparent;
+    background-color: #404bbf;
     border-radius: 2px;
 }
 
@@ -626,13 +626,14 @@ img {
     position: absolute;
     width: 408px;
     min-height: 584px;
-    top: auto;
-    left: auto;
+    top: 50%;
+    left: 50%;
     max-height: 584px;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

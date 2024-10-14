@@ -626,8 +626,8 @@ img {
     position: absolute;
     width: 408px;
     min-height: 584px;
-    top: 50%;
-    left: 50%;
+    top: auto;
+    left: auto;
     max-height: 584px;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
